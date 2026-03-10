@@ -1,0 +1,19 @@
+ul{
+    background-color: rgb(193, 193, 251);
+    padding: 1rem 2rem;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    list-style-type: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+li:hover {
+    background-color: rgb(137, 137, 249);
+    border-radius: 4px;
+}

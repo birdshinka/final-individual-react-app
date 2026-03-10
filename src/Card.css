@@ -1,0 +1,11 @@
+.myCard {
+    border: 3px solid rgb(182, 182, 198);
+    border-radius: 10px;
+    margin:40px;
+    background-color: lavender;
+}
+
+.mycard button {
+    margin-right: 10px;
+    margin-left: 10px;
+}
