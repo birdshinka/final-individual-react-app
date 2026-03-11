@@ -1,6 +1,6 @@
 import './Nav.css'
 
-function Nav({ setPages }){
+function Nav({ setPage }){
     return (
         <div>
             <ul>
