@@ -1,3 +1,4 @@
+import { StrictMode } from 'react'
 import './App.css'
 import Card from './Card.jsx'
 
