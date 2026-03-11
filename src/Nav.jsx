@@ -4,9 +4,9 @@ function Nav({ setPage }){
     return (
         <div>
             <ul>
-                <li onClick={() => setPages("home")}>Home</li>
-                <li onClick={() => setPages("about")}>About </li>
-                <li onClick={() => setPages("contact")}>Contact</li>
+                <li onClick={() => setPage("home")}>Home</li>
+                <li onClick={() => setPage("about")}>About </li>
+                <li onClick={() => setPage("contact")}>Contact</li>
             </ul>
         </div>
     )
