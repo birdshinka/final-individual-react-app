@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { db, auth, provider } from './firebase'; // Custom Firebase config
 import { signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth'; // Auth methods
 import { collection, getDocs } from 'firebase/firestore'; // Firestore methods
+import { GoogleAuthProvider } from 'firebase/auth/web-extension';
 
 function Google() {
   // State to hold the logged-in user
@@ -102,4 +103,3 @@ export default Google;
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const provider = new GoogleAuthProvider();
-
